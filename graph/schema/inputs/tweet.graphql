@@ -1,0 +1,5 @@
+input ReqTweetCreate {
+    content: String!
+    media: [String!]!
+    place: String
+}

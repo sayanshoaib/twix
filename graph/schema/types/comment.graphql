@@ -1,0 +1,18 @@
+type Comment {
+    commentID: String!
+    content: String!
+    createdAt: Time!
+    updatedAt: Time!
+}
+
+type RespCommentCreate {
+    comment: Comment!
+}
+
+type RespCommentUpdate {
+    comment: Comment!
+}
+
+type RespCommentDelete {
+    isDeleted: Boolean!
+}

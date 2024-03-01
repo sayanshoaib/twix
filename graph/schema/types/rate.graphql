@@ -1,0 +1,18 @@
+type Rate {
+    rateID: String!
+    reaction: ReactionType!
+    createdAt: Time!
+    updatedAt: Time!
+}
+
+type RespRateCreate {
+    rate: Rate!
+}
+
+type RespRateUpdate {
+    rate: Rate!
+}
+
+type RespRateDelete {
+    isDeleted: Boolean!
+}

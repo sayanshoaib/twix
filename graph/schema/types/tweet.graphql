@@ -1,0 +1,23 @@
+type Tweet {
+    tweetID: String!
+    content: String!
+    media: [String!]!
+    place: String
+    replyCount: Int!
+    retweetCount: Int!
+    rateCount: Int!
+    createdAt: Time!
+    updatedAt: Time!
+}
+
+type RespTweetCreate {
+    tweet: Tweet!
+}
+
+type RespTweetUpdate {
+    tweet: Tweet!
+}
+
+type RespTweetDelete {
+    isDeleted: Boolean!
+}

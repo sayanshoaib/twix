@@ -1,0 +1,3 @@
+input ReqCommentCreate {
+    content: String!
+}
